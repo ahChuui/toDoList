@@ -1,0 +1,55 @@
+body {
+    background-color: pink;
+  }
+  h1{
+    color: tomato;
+     font-style: italic;
+  }
+  .todo-cont {
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    border: 1px solid black;
+  }
+  button{
+  border-radius: 25px;
+  color: tomato;
+  background-color: pink;
+  }
+  
+  .divider {
+    margin-bottom: 3rem;
+  }
+  
+  .todoList {
+    min-height: 3rem;
+    background: white;
+    border-radius: 25px;
+    margin: 1rem;
+  }
+  
+  .todoList-cont {
+    text-align: left;
+    font-style: italic;
+  }
+  
+  .todoList-cont h4 {
+    margin-left: 1rem;
+    text-align: center;
+    color: tomato;
+  }
+  
+  .todoList {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .li_btn {
+    float: right;
+    margin-right: 1rem;
+    border-radius: 25px;
+  
+  }
+  .newLi{
+  color: tomato;
+  }
